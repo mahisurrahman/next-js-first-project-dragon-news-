@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/shared/navbar/Navbar";
 import Footer from "@/components/shared/footer/Footer";
 import { Container } from "@mui/material";
+import Header from "@/components/shared/header/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+        <Header></Header>
         <Navbar></Navbar>
         <Container className="min-h-screen">{children}</Container>
         <Footer></Footer>
