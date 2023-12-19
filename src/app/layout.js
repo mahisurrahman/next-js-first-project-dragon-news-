@@ -5,6 +5,9 @@ import Footer from "@/components/shared/footer/Footer";
 import { Container } from "@mui/material";
 import Header from "@/components/shared/header/Header";
 
+//Server link : https://the-news-portal-server.vercel.app/  //
+
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
