@@ -1,6 +1,7 @@
 "use client";
 
 import LatestNews from "@/components/ui/latest/LatestNews";
+import SideBar from "@/components/ui/sidebar/SideBar";
 import { Grid } from "@mui/material";
 
 const HomePage = () => {
@@ -11,7 +12,7 @@ const HomePage = () => {
           <LatestNews/>
         </Grid>
         <Grid item xs={4}>
-          <h1>Sidebar</h1>
+          <SideBar></SideBar>
         </Grid>
       </Grid>
     </>
