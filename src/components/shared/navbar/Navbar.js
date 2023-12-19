@@ -66,7 +66,7 @@ function Navbar() {
             <Stack direction="row" sx={{
               "& svg":{
                 color:"white",
-                fontSize: "30px",
+                fontSize: "20px",
               }
             }}>
               <IconButton>
